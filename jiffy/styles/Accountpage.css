@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+
+/*Header*/
+.header{
+	color: white;
+width:100%;
+height: 85px;
+display: flex;
+background-color:#002a32;
+justify-content:center;
+align-items:center;
+}
+.logo1{
+	display: block;
+	position:absolute;
+	width:80px;
+	height:80px;
+	top:1px;
+	Left:95px;
+	border-radius: 100%;
+	cursor:pointer;
+}
+.Account{
+	display: block;
+	position:absolute;
+	width:50px;
+	height:50px;
+	top:4px;
+	right:40px;
+
+}
+.menu{
+	display:inline-block;
+	padding:10px 30px;
+}
+.menu a:hover{
+	color:teal;
+}
+.active{
+color:white;
+}
+.btn1{
+	padding: 4px 20px;
+	background-color: #00d6d6;
+	color:#002a32;
+	border:none;
+	border-radius: 50px;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	display: block;
+	position:absolute;
+	top:55px;
+	right:20px;
+}
+a, button {
+	font-family:"Montserrat", sans-serif;
+	font-weight:500;
+	font-size:16px;
+	color:#00d6d6;
+	text-decoration:none;
+	
+}
+button:hover{
+	background-color: rgba(0,136,169,0.8);
+}
+.btn1{
+	color: white;
+	padding: 4px 20px;
+	background-color: rgba(0,136,169,1);
+	border:none;
+	border-radius: 50px;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	display: block;
+	position:absolute;
+	top:55px;
+	right:20px;
+}
+hr{
+	color:rgba(0,136,169,1);
+}
+
+/*Content*/
+
+
+/*Footer*/
+body{
+	line-height:1.5;	
+	background-image: url("../images/background1.png");
+
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.footer{
+
+margin-top: auto;
+background-color:#002a32;
+width:  100%;
+
+
+}
+.container{
+max-width:1200px;
+background-color:#002a32;
+margin:auto;
+
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+ul{
+	list-style:none;
+}
+.logo2{
+	display: block;
+	position:absolute;
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+	cursor:pointer;
+}
+.breif{
+	width:240px;
+	height:100px;
+	margin: 100px 0px 0px 0px;
+}
+.col{
+	width:25%;
+	padding:10px 0px 0px 10px;
+	background-color:#002a32;
+}
+.col h4{
+	font-size:20px;
+	color:#ffffff;
+	text-transform: capitalize;
+	margin-bottom:10px;
+	font-weight:500;
+	position:relative;
+	text-align:center;
+}
+.col h4::before{
+	padding:0px 0px 0px 0px;
+}
+.col ul li:not(:last-child){
+	margin-bottom:10px;
+}
+.col ul li a{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#00d6d6;
+	text-decoration:none;
+	font-weight:300;
+	display:block;
+	transition: all 0.3s ease;
+}
+.col ul li a:hover{
+	color:#ffffff;
+	font-size:17px;
+	transition: all 0.3s ease;
+}
+.footer-menu{
+	width:100px;
+	margin:0px 0px 0px 105px;
+}
+.info{
+width:190px;
+margin:0px 0px 0px 70px;
+}
+.store{
+	width:220px;
+	height:120px;
+	margin:0px 0px 0px 15px;
+}
+.col .app{
+	margin: 0px 0px 0px 70px;
+}
+.social{
+	width:100%;
+	padding:0px 15px;
+	align-items:center;
+	text-align:center;
+	justify-content:center;
+	background:#002a32;
+	height:50px;
+ }
+.social h4{
+	font-size:18px;
+	color:#ffffff;
+	text-transform: capitalize;
+	font-weight:500;
+	position:relative;
+	text-align:center;
+
+}
+.social .social-links a{
+	align-items:center;
+	justify-content:center;
+	background-color:#002a32;
+	margin:0 30px 30px 0;
+	color:#00d6d6;
+	transition: all 0.5s ease;
+}
+.social .social-links a:hover{
+	color:white;
+}
+.copy-rights{
+	align-items:center;
+	position:absolute;
+	text-align:center;
+	justify-content:center;
+	background:#24262b;
+	color:#686868;
+	width:100%;
+	height:50px;
+ }
+
+ .Account1 {
+    border-radius: 100%;
+    transition: all 0.3s ease 0s;
+    cursor:not-allowed;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Account1:hover {
+     opacity: 0.3;
+}
+
+.box {
+    border: 2px solid rgba(0,136,169,1);
+    margin: 50px;
+    position: relative;
+	width: 70%;
+	margin-left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+hr.line{
+	border: none;
+	height: 20px;
+	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+	margin: -50px auto 10px;
+}
+
+.box{
+    font-family:"Montserrat",sans-serif;
+	background-color: #f5f5f0;
+}
+
+h2.hi {
+    position:absolute;
+    left:120px;
+    top:15px;
+    font-family:"Montserrat",sans-serif;
+}
+
+h3.hi {
+    position:absolute;
+    left:120px;
+    top:50px;
+}
+button.summery {
+    padding: 4px 20px;
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgba(0,136,169,1);
+	border: none;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customerf {
+    padding: 4px 20px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: block;
+    position: absolute;
+    right: 1%;
+    top: 10px;
+    border-radius: 50px;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customeri {
+    padding: 4px 20px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: block;
+    position: absolute;
+    right: 1%;
+    top: 45px;
+    border-radius: 50px;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line{
+    top:25%;
+}
+
+.accinfo{
+	display: flex;
+	margin-left: 11%;
+	flex-wrap:wrap;
+	
+}
+
+.row1{
+	width: 50%;
+}
+
+.pin1{
+	position: absolute;
+	top: 150px;
+	left: 55px;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 100%;
+}
+.pin2{
+	position: absolute;
+	top: 150px;
+	left: 475px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	border-radius: 100%;
+}
+p1{
+	font-weight: bold;
+}
+.fetch{
+	margin-left:10px;
+	color: #686868;
+}
+
+.editacc{
+	border-radius: 120%;
+	position: absolute;
+	right: 20px;
+	top: 145px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+button.close{
+	display: block;
+	padding: 10px 20px;
+    position: absolute;
+	right: 20px;
+	top: 500px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(226, 33, 59);
+	color: #ffffff;
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
