@@ -1,11 +1,16 @@
-# SLIIT-IWT-assignment
-This is a group assignment with 5 members.
+# SLIIT IWT Project - Online Vehicle Reservation System
+This is done for the Y1S2 IWT module group project of 5 members.
 
-## Topic - Online Vehicle Reservation System
+## Description of the project
 Initially, we created wireframes of the proposed idea
 - Register, Login and User profile
 - Reserve vehicle, Contact Us
 - pages -> Home, Pricing, Promo, About Us
+
+## Technologies used
+- Frontend - HTML, CSS, JavaScript
+- Backend - PHP
+- Database - MySQL
 
 ## Required software
 XAMPP Server has to be installed
